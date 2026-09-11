@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = 'http://localhost:10000'
 
 // ── Componente: Burbuja de mensaje ───────────────────────────────────────────
 function Mensaje({ msg }) {

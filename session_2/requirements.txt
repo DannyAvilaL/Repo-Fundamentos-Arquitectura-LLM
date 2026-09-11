@@ -1,0 +1,24 @@
+# Sesión 2: Tipos de Modelos y Escenarios de Aplicación
+# Instalar con: pip install -r requirements.txt
+
+# === APIs de Modelos Propietarios ===
+openai>=1.40.0          # GPT-4o, GPT-4o-mini
+anthropic>=0.34.0       # Claude 3 Haiku, Sonnet, Opus
+google-generativeai>=0.7.0  # Gemini 1.5 Flash, Pro
+
+# === HTTP y Async ===
+httpx>=0.27.0           # Ollama API + streaming async
+requests>=2.32.0        # Alternativa sincrónica
+
+# === Backend FastAPI ===
+fastapi>=0.115.0
+uvicorn[standard]>=0.31.0
+pydantic>=2.9.0
+
+# === Utilidades ===
+python-dotenv>=1.0.0    # Cargar .env con API keys
+rich>=13.9.0            # Tablas bonitas en terminal
+
+# === Opcionales (análisis avanzado) ===
+# pandas>=2.2.0         # Para análisis de benchmarks
+# matplotlib>=3.9.0     # Gráficas de comparación
