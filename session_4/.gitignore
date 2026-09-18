@@ -1,0 +1,14 @@
+# Entornos y credenciales
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Node / frontend
+node_modules/
+dist/
+frontend/dist/
+
+# Otros
+.DS_Store
+*.log
